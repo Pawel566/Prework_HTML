@@ -3,6 +3,13 @@ body {
   font-size: 1.5rem;
   font-family: sans-serif;
 }
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
 
 hr {
   border:0;
@@ -12,4 +19,7 @@ hr {
 
 .title {
   color: crimson;
+}
+.books {
+  list-style: decimal;
 }
